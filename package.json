@@ -1,6 +1,6 @@
 {
   "name": "hset",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "An extension of JavaScript Sets",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
