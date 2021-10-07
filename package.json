@@ -1,12 +1,13 @@
 {
   "name": "hset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An extension of JavaScript Sets",
   "main": "./lib/cjs/index.js",
   "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "scripts": {
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublish": "npm run tsc"
+    "prepare": "npm run tsc"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
     "typescript": "^4.4.3"
   },
   "files": [
-    "./lib"
+    "lib/**"
   ],
   "dependencies": {}
 }
