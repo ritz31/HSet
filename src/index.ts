@@ -1,5 +1,1 @@
-import HSet from "./HSet"
-
-export default {
-    HSet
-}
+export {default as HSet} from "./HSet";

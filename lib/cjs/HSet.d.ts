@@ -10,3 +10,4 @@ export default class HSet {
     get size(): number;
     protected hasString(val: (string | number)): boolean;
 }
+//# sourceMappingURL=HSet.d.ts.map

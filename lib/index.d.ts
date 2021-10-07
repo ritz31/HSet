@@ -3,3 +3,4 @@ declare const _default: {
     HSet: typeof HSet;
 };
 export default _default;
+//# sourceMappingURL=index.d.ts.map
